@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+  }
+
+html,
+body { 
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    height: 100%;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+}
+
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+}
+
+.card-child{
+    border-radius: 15px;
+}
+
+.card-child img{
+    border-radius: 15px 15px 0 0;
+}
+.attribution{
+    font-size: 11px; text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+
+}
+
+.class-buttons{
+    margin-top: 10px;
+    display: block;
+    font-size: 10px;
+}
+
+span{
+    display: block;
+    font-size: 12px;
+}
+
+.plan-info{
+    padding: 0;
+}
+
+.info-text{
+    padding-top: 10px;
+}
+
+.plan{
+    background-color: var(--very-pale-blue);
+    margin: 5px 20px 15px 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div .change{
+    margin-right: 5px;
+    text-align: right;
+    padding-top: 10px;
+}
+.annual-change{
+    font-size: 12px;
+    color: var(--bright-blue);
+    text-align: right;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.annual-plan{
+    font-weight: 900;
+}
+
+.plan a {
+    color:var(--bright-blue);
+}
+
+.card-title{
+    color: var(--Dark-blue);
+    text-align: center;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.description{
+    color: var(--desaturated-blue);
+    text-align: center;
+    font-size: 14px;
+    margin: 20px
+}
+
+.btn{
+    font-size: 10px;
+    background-color: var(--bright-blue);
+    text-align: center;
+    padding: 8px 80px 8px 80px;
+    border-radius: 7px;
+    box-shadow: 5px 10px  #dad9d9;
+    margin-bottom: 15px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer a{
+    color: var(--desaturated-blue);
+
+}
