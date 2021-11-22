@@ -1,2 +1,2 @@
 # frontProjects
-Front practive
+Front practice
